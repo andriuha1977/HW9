@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS EMOJI</title>
+    <style>
+        body{
+          background-color: #333; 
+          color: darkblue; 
+        }
+        #smile{
+            background-image:linear-gradient(yellow,orange,yellow);
+            width: 128px;
+            height: 128px;
+            border-radius: 100%;
+            border:5px solid orange ;
+            text-align: center;
+            line-height: 70px;
+            margin: 50px;
+        }
+        .eye{
+            background-color: white;
+            width: 16px;
+            height: 16px;
+            margin-top: 40px;
+            border-radius: 100%;
+            font-size: 30px;
+            line-height :10px;
+            text-align: right;
+        }
+        .left{
+            float: left;
+            margin-left: 30px;
+        }
+        .right{
+            float: right;
+            margin-right: 30px;
+        }
+        .nose{
+            background-color: transparent;
+            width: 40px;
+            height: 50px;
+            margin-top: 40px;
+            margin-left: 43px;
+            margin-bottom: 3px;
+        } 
+        .mouth{
+            background-color: rgb(15, 14, 14);
+            width: 50px;
+            height: 10px;
+            border-radius:110% 110% 0% 0%;
+            margin-left: 37px;
+        }
+        .eye:hover{
+            background-color: red;
+        }
+        .mouth:hover{
+            background-color: rgb(173, 60, 8);
+        }
+    </style>
+</head>
+<body>
+    <div id="smile">
+        <div class="eye left">&bull;</div>
+        <div class="eye right">&bull;</div>
+        <div class="nose"><img width="40" src="http://icons.iconarchive.com/icons/google/noto-emoji-people-bodyparts/48/12112-nose-icon.png"></div>
+        <div class="mouth"></div>
+     </div>
+    
+    
+</body>
+</html>
